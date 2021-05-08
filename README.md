@@ -572,7 +572,7 @@ ont trois mouvements possibles:
 Les robots sont placés sur une grille hypothétique infinie, face à une direction cardinale particulière (nord, est, sud 
 ou ouest) à des coordonnées {x, y}, par exemple, {3,8}, avec des coordonnées croissantes vers le nord et l'est.
 
-Le robot reçoit alors un certain nombre d'instructions, auquel cas l'installation de test vérifie la nouvelle position 
+Le robot reçoit alors un certain nombre d'instructions, auquel cas l'installation de tests vérifie la nouvelle position 
 du robot et dans quelle direction il pointe.
 
 La chaine de caractères "RAALAL" signifie:
@@ -582,12 +582,12 @@ La chaine de caractères "RAALAL" signifie:
 - Avance une fois
 - Tournez encore à gauche
 
-Supposons qu'un robot commence à {7, 3} face au nord. Ensuite, s'il execute séquence d'instructions ci-dessus il devrait 
+Supposons qu'un robot commence à {7, 3} face au nord. Ensuite, s'il exécute la séquence d'instructions ci-dessus il devrait 
 se trouver aux coordonnées {9, 4} face à l'ouest.
 
 #### Indications :
 Pour mémoriser l'ensemble des instructions, nous ne pouvons connaitre à l'avance le nombre d'instructions contenues dans 
-la chaine de commade. Les tableaux ne sont donc pas adaptés. Nous allons utiliser un objet d’une classe implémentant 
+la chaine de commandes. Les tableaux ne sont donc pas adaptés. Nous allons utiliser un objet d’une classe implémentant 
 l’interface `Collection`, par exemple un objet `ArrayList`.
 
 L’interface `Collection` est très générale et définit ce qu’une classe collectionnant des objets devrait fournir comme 
